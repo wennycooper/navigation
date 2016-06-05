@@ -1,0 +1,39 @@
+---- ROS_DEBUG_NAMED Matches (38 in 5 files) ----
+Dwa_planner_ros.cpp (dwa_local_planner\src):      ROS_DEBUG_NAMED("dwa_local_planner",
+Dwa_planner_ros.cpp (dwa_local_planner\src):    ROS_DEBUG_NAMED("dwa_local_planner", "A valid velocity command of (%.2f, %.2f, %.2f) was found for this cycle.", 
+Dwa_planner_ros.cpp (dwa_local_planner\src):    ROS_DEBUG_NAMED("dwa_local_planner", "Received a transformed plan with %zu points.", transformed_plan.size());
+Latched_stop_rotate_controller.cpp (base_local_planner\src):    ROS_DEBUG_NAMED("latched_stop_rotate", "Slowing down... using vx, vy, vth: %.2f, %.2f, %.2f", vx, vy, vth);
+Latched_stop_rotate_controller.cpp (base_local_planner\src):    ROS_DEBUG_NAMED("dwa_local_planner", "Moving to desired goal orientation, th cmd: %.2f, valid_cmd: %d", v_theta_samp, valid_cmd);
+Move_base.cpp (move_base\src):      ROS_DEBUG_NAMED("move_base","Stopping costmaps initially");
+Move_base.cpp (move_base\src):    ROS_DEBUG_NAMED("move_base","In ROS goal callback, wrapping the PoseStamped in the action message and re-sending to the server.");
+Move_base.cpp (move_base\src):      ROS_DEBUG_NAMED("move_base","Failed to find a plan to exact goal of (%.2f, %.2f), searching for a feasible goal within tolerance", 
+Move_base.cpp (move_base\src):                    ROS_DEBUG_NAMED("move_base", "Found a plan to point (%.2f, %.2f)", p.pose.position.x, p.pose.position.y);
+Move_base.cpp (move_base\src):                  ROS_DEBUG_NAMED("move_base","Failed to find a plan to point (%.2f, %.2f)", p.pose.position.x, p.pose.position.y);
+Move_base.cpp (move_base\src):      ROS_DEBUG_NAMED("move_base","Failed to find a  plan to point (%.2f, %.2f)", goal.pose.position.x, goal.pose.position.y);
+Move_base.cpp (move_base\src):    ROS_DEBUG_NAMED("move_base_plan_thread","Starting planner thread...");
+Move_base.cpp (move_base\src):        ROS_DEBUG_NAMED("move_base_plan_thread","Planner thread is suspending");
+Move_base.cpp (move_base\src):      ROS_DEBUG_NAMED("move_base_plan_thread","Planning...");
+Move_base.cpp (move_base\src):        ROS_DEBUG_NAMED("move_base_plan_thread","Got Plan with %zu points!", planner_plan_->size());
+Move_base.cpp (move_base\src):        ROS_DEBUG_NAMED("move_base_plan_thread","Generated a plan from the base_global_planner");
+Move_base.cpp (move_base\src):        ROS_DEBUG_NAMED("move_base_plan_thread","No Plan...");
+Move_base.cpp (move_base\src):      ROS_DEBUG_NAMED("move_base","Starting up costmaps that were shut down previously");
+Move_base.cpp (move_base\src):          ROS_DEBUG_NAMED("move_base","move_base has received a goal of x: %.2f, y: %.2f", goal.pose.position.x, goal.pose.position.y);
+Move_base.cpp (move_base\src):          ROS_DEBUG_NAMED("move_base","Move base preempting the current goal");
+Move_base.cpp (move_base\src):        ROS_DEBUG_NAMED("move_base","The global frame for move_base has changed, new frame: %s, new goal position x: %.2f, y: %.2f", goal.header.frame_id.c_str(), goal.pose.position.x, goal.pose.position.y);
+Move_base.cpp (move_base\src):      ROS_DEBUG_NAMED("move_base","Full control cycle time: %.9f\n", t_diff.toSec());
+Move_base.cpp (move_base\src):      ROS_DEBUG_NAMED("move_base","Got a new plan...swap pointers");
+Move_base.cpp (move_base\src):      ROS_DEBUG_NAMED("move_base","pointers swapped!");
+Move_base.cpp (move_base\src):        ROS_DEBUG_NAMED("move_base","Waiting for plan, in the planning state.");
+Move_base.cpp (move_base\src):        ROS_DEBUG_NAMED("move_base","In controlling state.");
+Move_base.cpp (move_base\src):          ROS_DEBUG_NAMED("move_base","Goal reached!");
+Move_base.cpp (move_base\src):          ROS_DEBUG_NAMED( "move_base", "Got a valid command from the local planner: %.3lf, %.3lf, %.3lf",
+Move_base.cpp (move_base\src):          ROS_DEBUG_NAMED("move_base", "The local planner could not find a valid plan.");
+Move_base.cpp (move_base\src):        ROS_DEBUG_NAMED("move_base","In clearing/recovery state");
+Move_base.cpp (move_base\src):          ROS_DEBUG_NAMED("move_base_recovery","Executing behavior %u of %zu", recovery_index_, recovery_behaviors_.size());
+Move_base.cpp (move_base\src):          ROS_DEBUG_NAMED("move_base_recovery","Going back to planning state");
+Move_base.cpp (move_base\src):          ROS_DEBUG_NAMED("move_base_recovery","All recovery behaviors have failed, locking the planner and disabling it.");
+Move_base.cpp (move_base\src):          ROS_DEBUG_NAMED("move_base_recovery","Something should abort after this.");
+Move_base.cpp (move_base\src):      ROS_DEBUG_NAMED("move_base","Stopping costmaps");
+Odometry_helper_ros.cpp (base_local_planner\src)://  ROS_DEBUG_NAMED("dwa_local_planner", "In the odometry callback with velocity values: (%.2f, %.2f, %.2f)",
+Trajectory_planner_ros.cpp (base_local_planner\src):      ROS_DEBUG_NAMED("trajectory_planner_ros",
+Trajectory_planner_ros.cpp (base_local_planner\src):    ROS_DEBUG_NAMED("trajectory_planner_ros", "A valid velocity command of (%.2f, %.2f, %.2f) was found for this cycle.",
